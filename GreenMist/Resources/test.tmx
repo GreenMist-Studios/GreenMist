@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="16" tilewidth="48" tileheight="48">
+ <properties>
+  <property name="a" value="a"/>
+ </properties>
+ <tileset firstgid="1" name="sheet" tilewidth="48" tileheight="48">
+  <image source="sheet.png" width="480" height="480"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="16" height="16">
+  <properties>
+   <property name="bb" value="b"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzNksEKACAIQxv0/9/cfUznPDUQQn05I5xeMDVQD+dAeXX3pEedmVd+t3y1m+M7oYlEyuM0lJ+tfuHdrsl7pHMV7/aqapP51/DpP3jJoABm
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="16" height="16">
+  <properties>
+   <property name="asa" value="aa"/>
+   <property name="blah" value="7"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPYBrVT1P9g919tNY/CsgDADZgABU=
+  </data>
+ </layer>
+ <objectgroup color="#2357a4" name="obj" width="16" height="16">
+  <properties>
+   <property name="s" value="s"/>
+  </properties>
+  <object type="Door" x="58" y="9" width="28" height="31"/>
+  <object type="Door" x="585" y="679" width="28" height="39">
+   <properties>
+    <property name="Exit" value="r1"/>
+   </properties>
+  </object>
+  <object type="Collision" x="0" y="0">
+   <polyline points="0,0 48,0 48,48 96,48 96,336 576,336 576,384 48,384 48,528 336,528 336,576 192,576 192,720 624,720 624,576 432,576 432,528 720,528 720,288 672,288 672,336 624,336 624,288 528,288 528,96 480,96 480,48 576,48 576,240 672,240 672,96 720,96 720,0 768,0 768,624 672,624 672,768 144,768 144,576 0,576 0,288 48,288 48,96 0,96 0,0"/>
+  </object>
+  <object type="Collision" x="144" y="96">
+   <polyline points="0,0 48,0 48,-48 192,-48 192,0 96,0 96,144 48,144 48,48 0,48 0,0"/>
+  </object>
+  <object type="Collision" x="288" y="192">
+   <polyline points="0,0 0,48 144,48 144,-192 96,-192 96,0 0,0"/>
+  </object>
+  <object type="Collision" x="240" y="624">
+   <polyline points="0,0 96,0 96,48 0,48 0,0"/>
+  </object>
+ </objectgroup>
+</map>

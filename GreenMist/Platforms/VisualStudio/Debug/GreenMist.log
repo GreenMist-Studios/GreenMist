@@ -1,0 +1,19 @@
+﻿Build started 8/14/2014 7:37:36 PM.
+     1>Project "C:\Users\Geoff\Dropbox\Projects\GreenMist\Platforms\VisualStudio\GreenMist.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Debug\GreenMist.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         GreenMist.vcxproj -> C:\Users\Geoff\Dropbox\Projects\GreenMist\Platforms\VisualStudio\..\..\..\Libraries\libs\GreenMist.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\GreenMist.unsuccessfulbuild".
+         Touching "Debug\GreenMist.lastbuildstate".
+     1>Done Building Project "C:\Users\Geoff\Dropbox\Projects\GreenMist\Platforms\VisualStudio\GreenMist.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35

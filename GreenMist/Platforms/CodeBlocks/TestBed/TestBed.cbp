@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TestBed" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Resources\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TestBed" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TestBed" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+			<Add directory="../../../GreenMist" />
+			<Add directory="../../../../Libraries" />
+			<Add directory="../../../../SDL2/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2 -lSDL2main -lBox2D -lz -lGreenMist" />
+			<Add option="-lSDL2_image" />
+			<Add directory="../GreenMist/bin/Debug" />
+			<Add directory="../../../../Libraries/libs" />
+		</Linker>
+		<Unit filename="../../../Resources/Circle.png" />
+		<Unit filename="../../../Resources/particle-cloud.png">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../../../Resources/player.png">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../../../Resources/sheet.png">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../../../Resources/square.png">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../../../Resources/test.tmx">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../../../TestBed/Level.cpp" />
+		<Unit filename="../../../TestBed/Level.h" />
+		<Unit filename="../../../TestBed/Module.cpp" />
+		<Unit filename="../../../TestBed/Module.h" />
+		<Unit filename="../../../TestBed/Systems/BasicRenderSystem.h" />
+		<Unit filename="../../../TestBed/Systems/RenderOrderSystem.cpp" />
+		<Unit filename="../../../TestBed/Systems/RenderOrderSystem.h" />
+		<Unit filename="../../../TestBed/TestBedApp.cpp" />
+		<Unit filename="../../../TestBed/TestBedApp.h" />
+		<Unit filename="../../../TestBed/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

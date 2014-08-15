@@ -1,0 +1,195 @@
+TTestBed
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app/Contents/Info.plist /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/TestBed-Info.plist
+
+N/Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/TestBed-Info.plist
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app/Contents/Info.plist
+t2
+s0
+
+N/Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app/Contents/PkgInfo
+t2
+s0
+
+CBuild AST from /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/AppDelegate.m
+r0
+
+CBuild AST from /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/main.m
+r0
+
+CBuild AST from /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Level.cpp
+r0
+
+CBuild AST from /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Module.cpp
+r0
+
+CBuild AST from /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Systems/RenderOrderSystem.cpp
+r0
+
+CBuild AST from /Users/geoff/Dropbox/Projects/GreenMist/TestBed/TestBedApp.cpp
+r0
+
+CBuild AST from /Users/geoff/Dropbox/Projects/GreenMist/TestBed/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0f816b64c884b941^999d6d64c884b941^---0#1#1#--18"Check dependencies36"2390CD36-F519-4D89-A71A-A1BEF3E81C52-
+
+CCompileAssetCatalog /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app/Contents/Resources /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/Images.xcassets
+r0
+
+CCompileC build/GreenMIst.build/Debug/TestBed.build/Objects-normal/x86_64/AppDelegate.o /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GreenMIst.build/Debug/TestBed.build/Objects-normal/x86_64/Level.o /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Level.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GreenMIst.build/Debug/TestBed.build/Objects-normal/x86_64/Module.o /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Module.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GreenMIst.build/Debug/TestBed.build/Objects-normal/x86_64/RenderOrderSystem.o /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Systems/RenderOrderSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GreenMIst.build/Debug/TestBed.build/Objects-normal/x86_64/TestBedApp.o /Users/geoff/Dropbox/Projects/GreenMist/TestBed/TestBedApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GreenMIst.build/Debug/TestBed.build/Objects-normal/x86_64/main-1FCABE45EE6E168E.o /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GreenMIst.build/Debug/TestBed.build/Objects-normal/x86_64/main-C9211B69A413BC8B.o /Users/geoff/Dropbox/Projects/GreenMist/TestBed/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GreenMIst.build/Debug/TestBed.build/Objects-normal/x86_64/main.o /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GreenMIst.build/Debug/TestBed.build/Objects-normal/x86_64/main.o /Users/geoff/Dropbox/Projects/GreenMist/TestBed/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileXIB /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/Base.lproj/MainMenu.xib
+r0
+
+CCopyStringsFile /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app/Contents/Resources/en.lproj/InfoPlist.strings TestBed/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/CL.read.1.tlog build/Debug/TestBed.app/Contents/Resources/CL.read.1.tlog
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/CL.write.1.tlog build/Debug/TestBed.app/Contents/Resources/CL.write.1.tlog
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/Level.obj build/Debug/TestBed.app/Contents/Resources/Level.obj
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/Module.obj build/Debug/TestBed.app/Contents/Resources/Module.obj
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/RenderOrderSystem.obj build/Debug/TestBed.app/Contents/Resources/RenderOrderSystem.obj
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/SDL2.dll build/Debug/TestBed.app/Contents/Resources/SDL2.dll
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/SDL2_image.dll build/Debug/TestBed.app/Contents/Resources/SDL2_image.dll
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/TestBed.exe build/Debug/TestBed.app/Contents/Resources/TestBed.exe
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/TestBed.exe.intermediate.manifest build/Debug/TestBed.app/Contents/Resources/TestBed.exe.intermediate.manifest
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/TestBed.ilk build/Debug/TestBed.app/Contents/Resources/TestBed.ilk
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/TestBed.lastbuildstate build/Debug/TestBed.app/Contents/Resources/TestBed.lastbuildstate
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/TestBed.log build/Debug/TestBed.app/Contents/Resources/TestBed.log
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/TestBed.pdb build/Debug/TestBed.app/Contents/Resources/TestBed.pdb
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/TestBed.write.1.tlog build/Debug/TestBed.app/Contents/Resources/TestBed.write.1.tlog
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/TestBedApp.obj build/Debug/TestBed.app/Contents/Resources/TestBedApp.obj
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/cl.command.1.tlog build/Debug/TestBed.app/Contents/Resources/cl.command.1.tlog
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/libjpeg-9.dll build/Debug/TestBed.app/Contents/Resources/libjpeg-9.dll
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/libpng16-16.dll build/Debug/TestBed.app/Contents/Resources/libpng16-16.dll
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/libtiff-5.dll build/Debug/TestBed.app/Contents/Resources/libtiff-5.dll
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/libwebp-4.dll build/Debug/TestBed.app/Contents/Resources/libwebp-4.dll
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/link.command.1.tlog build/Debug/TestBed.app/Contents/Resources/link.command.1.tlog
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/link.read.1.tlog build/Debug/TestBed.app/Contents/Resources/link.read.1.tlog
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/link.write.1.tlog build/Debug/TestBed.app/Contents/Resources/link.write.1.tlog
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/main.obj build/Debug/TestBed.app/Contents/Resources/main.obj
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/mt.command.1.tlog build/Debug/TestBed.app/Contents/Resources/mt.command.1.tlog
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/mt.read.1.tlog build/Debug/TestBed.app/Contents/Resources/mt.read.1.tlog
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/mt.write.1.tlog build/Debug/TestBed.app/Contents/Resources/mt.write.1.tlog
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/vc100.idb build/Debug/TestBed.app/Contents/Resources/vc100.idb
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/vc100.pdb build/Debug/TestBed.app/Contents/Resources/vc100.pdb
+r0
+
+CCpResource /Users/geoff/Dropbox/Projects/GreenMist/TestBed/Debug/zlib1.dll build/Debug/TestBed.app/Contents/Resources/zlib1.dll
+r0
+
+CCpResource TestBed/en.lproj/Credits.rtf build/Debug/TestBed.app/Contents/Resources/en.lproj/Credits.rtf
+r0
+
+CLd /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app/Contents/MacOS/TestBed normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app/Contents/Info.plist /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/TestBed-Info.plist
+s428132452.428658
+e428132452.429196
+r0
+xProcessInfoPlistFile
+x/Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app/Contents/Info.plist
+x/Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/TestBed-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Process /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/TestBed-Info.plist91"ProcessInfoPlistFile build/Debug/TestBed.app/Contents/Info.plist TestBed/TestBed-Info.plistb9c46d64c884b941^83e06d64c884b941^-214"error: could not read data from '/Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/TestBed-Info.plist': The file “TestBed-Info.plist” couldn’t be opened because there is no such file.1(21%IDEActivityLogMessage2@206"could not read data from '/Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/TestBed-Info.plist': The file “TestBed-Info.plist” couldn’t be opened because there is no such file.-428132452#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#24"Info.plist Utility Error--0#0#1#-19%DVTDocumentLocation4@99"file:///Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/TestBed-Info.plist003454a9dfffdf42^557"ProcessInfoPlistFile build/Debug/TestBed.app/Contents/Info.plist TestBed/TestBed-Info.plist    cd /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst    builtin-infoPlistUtility /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/TestBed/TestBed-Info.plist -genpkginfo /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app/Contents/Info.plist36"BE3F880A-5DC1-4B0F-B973-CE61A732AA67-
+bC06CA012-F006-425D-A53B-99A24844FF6A
+
+CProcessPCH /Users/geoff/Library/Developer/Xcode/DerivedData/GreenMIst-bqqepifozvaoctcqxnrzjozqqijg/Index/PrecompiledHeaders/TestBed-Prefix-cdrflthtcvznhgclmxaoxfffzskb_ast/TestBed-Prefix.pch.pch TestBed/TestBed-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/zl/wkqp0fc90cdgrw2y4l2v3b400000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestBed-Prefix-adxsjvwmngkcexgkaljqzdgwtqui/TestBed-Prefix.pch.pch TestBed/TestBed-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/geoff/Dropbox/Projects/GreenMist/Platforms/Xcode/GreenMIst/build/Debug/TestBed.app
+r0
+

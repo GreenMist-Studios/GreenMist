@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\GreenMist\B2DDebugDraw.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Aspect.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Bitsize.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Component.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\ComponentManager.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\ComponentMapper.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Components\EmitterComponent.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Components\PhysicsComponent.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Components\PositionComponent.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Components\RenderOrderComponent.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Components\RotationComponent.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Components\TextureComponent.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Components\VelocityComponent.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\ComponentType.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Entity.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\EntityManager.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\EntityObserver.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\EntitySystem.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\ImmutableBag.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Manager.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Managers\GroupManager.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Managers\PlayerManager.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Managers\TagManager.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Managers\TeamManager.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\DelayedEntityProcessingSystem.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\EntityProcessingSystem.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\IntervalEntityProcessingSystem.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\IntervalEntitySystem.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\ParticleEntitySystem.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\PhysicsEntitySystem.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\VoidEntitySystem.h" />
+    <ClInclude Include="..\..\GreenMist\ECS\World.h" />
+    <ClInclude Include="..\..\GreenMist\GMApplication.h" />
+    <ClInclude Include="..\..\GreenMist\GMTimer.h" />
+    <ClInclude Include="..\..\GreenMist\MathExtender.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\AgeModifier.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\AlphaModifier.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\EmitterParameter.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\Modifier.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\ModifierCollection.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\ModifierSlot.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\MoveModifier.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\Particle.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\ParticleCollection.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\Profile.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\Range.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\RangeColor.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\RangeF.h" />
+    <ClInclude Include="..\..\GreenMist\Particle\RotationModifier.h" />
+    <ClInclude Include="..\..\GreenMist\Physics\PhysicsFactory.h" />
+    <ClInclude Include="..\..\GreenMist\SDL2_gfx\SDL2_framerate.h" />
+    <ClInclude Include="..\..\GreenMist\SDL2_gfx\SDL2_gfxPrimitives.h" />
+    <ClInclude Include="..\..\GreenMist\SDL2_gfx\SDL2_gfxPrimitives_font.h" />
+    <ClInclude Include="..\..\GreenMist\SDL2_gfx\SDL2_imageFilter.h" />
+    <ClInclude Include="..\..\GreenMist\SDL2_gfx\SDL2_rotozoom.h" />
+    <ClInclude Include="..\..\GreenMist\Settings.h" />
+    <ClInclude Include="..\..\GreenMist\Texture.h" />
+    <ClInclude Include="..\..\GreenMist\TextureManager.h" />
+    <ClInclude Include="..\..\GreenMist\TMX\StaticTile.h" />
+    <ClInclude Include="..\..\GreenMist\TMX\Tiles.h" />
+    <ClInclude Include="..\..\GreenMist\TMX\tinyxml2.h" />
+    <ClInclude Include="..\..\GreenMist\TMX\TMXLayer.h" />
+    <ClInclude Include="..\..\GreenMist\TMX\TMXMap.h" />
+    <ClInclude Include="..\..\GreenMist\TMX\TMXObjectGroupLayer.h" />
+    <ClInclude Include="..\..\GreenMist\TMX\TMXTileLayer.h" />
+    <ClInclude Include="..\..\GreenMist\TMX\TMXTileset.h" />
+    <ClInclude Include="..\..\GreenMist\Vector2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\GreenMist\B2DDebugDraw.cpp" />
+    <ClCompile Include="..\..\GreenMist\ECS\ComponentManager.cpp" />
+    <ClCompile Include="..\..\GreenMist\ECS\ComponentType.cpp" />
+    <ClCompile Include="..\..\GreenMist\ECS\Entity.cpp" />
+    <ClCompile Include="..\..\GreenMist\ECS\EntityManager.cpp" />
+    <ClCompile Include="..\..\GreenMist\ECS\EntitySystem.cpp" />
+    <ClCompile Include="..\..\GreenMist\ECS\Systems\IntervalEntitySystem.cpp" />
+    <ClCompile Include="..\..\GreenMist\ECS\World.cpp" />
+    <ClCompile Include="..\..\GreenMist\GMApplication.cpp" />
+    <ClCompile Include="..\..\GreenMist\GMTimer.cpp" />
+    <ClCompile Include="..\..\GreenMist\MathExtender.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\AgeModifier.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\AlphaModifier.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\EmitterParameter.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\Modifier.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\ModifierCollection.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\ModifierSlot.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\MoveModifier.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\Particle.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\ParticleCollection.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\Profile.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\Range.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\RangeColor.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\RangeF.cpp" />
+    <ClCompile Include="..\..\GreenMist\Particle\RotationModifier.cpp" />
+    <ClCompile Include="..\..\GreenMist\SDL2_gfx\SDL2_framerate.c" />
+    <ClCompile Include="..\..\GreenMist\SDL2_gfx\SDL2_gfxPrimitives.c" />
+    <ClCompile Include="..\..\GreenMist\SDL2_gfx\SDL2_imageFilter.c" />
+    <ClCompile Include="..\..\GreenMist\SDL2_gfx\SDL2_rotozoom.c" />
+    <ClCompile Include="..\..\GreenMist\Settings.cpp" />
+    <ClCompile Include="..\..\GreenMist\Texture.cpp" />
+    <ClCompile Include="..\..\GreenMist\TextureManager.cpp" />
+    <ClCompile Include="..\..\GreenMist\TMX\StaticTile.cpp" />
+    <ClCompile Include="..\..\GreenMist\TMX\Tiles.cpp" />
+    <ClCompile Include="..\..\GreenMist\TMX\tinyxml2.cpp" />
+    <ClCompile Include="..\..\GreenMist\TMX\TMXLayer.cpp" />
+    <ClCompile Include="..\..\GreenMist\TMX\TMXMap.cpp" />
+    <ClCompile Include="..\..\GreenMist\TMX\TMXTileLayer.cpp" />
+    <ClCompile Include="..\..\GreenMist\TMX\TMXTileset.cpp" />
+    <ClCompile Include="..\..\GreenMist\Vector2.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD7AAA80-68DB-493B-921B-343898707B49}</ProjectGuid>
+    <RootNamespace>GreenMist</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Geoff\Dropbox\Projects\Libraries;C:\Users\Geoff\Dropbox\Projects\Libraries\SDL2;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Users\Geoff\Dropbox\Projects\Libraries\libs;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)..\..\..\Libraries\libs</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;Box2D.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

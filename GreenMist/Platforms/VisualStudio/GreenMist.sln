@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GreenMist", "GreenMist.vcxproj", "{BD7AAA80-68DB-493B-921B-343898707B49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestBed", "TestBed.vcxproj", "{BB06D5CC-7228-4955-B33A-B6BD411FDAA4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD7AAA80-68DB-493B-921B-343898707B49} = {BD7AAA80-68DB-493B-921B-343898707B49}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD7AAA80-68DB-493B-921B-343898707B49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD7AAA80-68DB-493B-921B-343898707B49}.Debug|Win32.Build.0 = Debug|Win32
+		{BD7AAA80-68DB-493B-921B-343898707B49}.Release|Win32.ActiveCfg = Release|Win32
+		{BD7AAA80-68DB-493B-921B-343898707B49}.Release|Win32.Build.0 = Release|Win32
+		{BB06D5CC-7228-4955-B33A-B6BD411FDAA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB06D5CC-7228-4955-B33A-B6BD411FDAA4}.Debug|Win32.Build.0 = Debug|Win32
+		{BB06D5CC-7228-4955-B33A-B6BD411FDAA4}.Release|Win32.ActiveCfg = Release|Win32
+		{BB06D5CC-7228-4955-B33A-B6BD411FDAA4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

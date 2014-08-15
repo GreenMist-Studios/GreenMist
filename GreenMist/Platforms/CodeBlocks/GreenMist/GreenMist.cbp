@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GreenMist" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../../Libraries/libs/GreenMist" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GreenMist" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../../../../Libraries" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2 -lSDL2main -lSDL2_image &apos;sdl-config --libs&apos;" />
+			<Add directory="../../../../../../../../media/geoff/32A2C5EDA2C5B59F/Users/Geoff/OneDrive/Projects/Libraries/libs" />
+		</Linker>
+		<Unit filename="../../../GreenMist/B2DDebugDraw.cpp" />
+		<Unit filename="../../../GreenMist/B2DDebugDraw.h" />
+		<Unit filename="../../../GreenMist/ECS/Aspect.h" />
+		<Unit filename="../../../GreenMist/ECS/Bitsize.h" />
+		<Unit filename="../../../GreenMist/ECS/Component.h" />
+		<Unit filename="../../../GreenMist/ECS/ComponentManager.cpp" />
+		<Unit filename="../../../GreenMist/ECS/ComponentManager.h" />
+		<Unit filename="../../../GreenMist/ECS/ComponentMapper.h" />
+		<Unit filename="../../../GreenMist/ECS/ComponentType.cpp" />
+		<Unit filename="../../../GreenMist/ECS/ComponentType.h" />
+		<Unit filename="../../../GreenMist/ECS/Components/EmitterComponent.h" />
+		<Unit filename="../../../GreenMist/ECS/Components/ParticleComponent.h" />
+		<Unit filename="../../../GreenMist/ECS/Components/PhysicsComponent.h" />
+		<Unit filename="../../../GreenMist/ECS/Components/PositionComponent.h" />
+		<Unit filename="../../../GreenMist/ECS/Components/RenderOrderComponent.h" />
+		<Unit filename="../../../GreenMist/ECS/Components/TextureComponent.h" />
+		<Unit filename="../../../GreenMist/ECS/Components/VelocityComponent.h" />
+		<Unit filename="../../../GreenMist/ECS/Entity.cpp" />
+		<Unit filename="../../../GreenMist/ECS/Entity.h" />
+		<Unit filename="../../../GreenMist/ECS/EntityManager.cpp" />
+		<Unit filename="../../../GreenMist/ECS/EntityManager.h" />
+		<Unit filename="../../../GreenMist/ECS/EntityObserver.h" />
+		<Unit filename="../../../GreenMist/ECS/EntitySystem.cpp" />
+		<Unit filename="../../../GreenMist/ECS/EntitySystem.h" />
+		<Unit filename="../../../GreenMist/ECS/ImmutableBag.h" />
+		<Unit filename="../../../GreenMist/ECS/Manager.h" />
+		<Unit filename="../../../GreenMist/ECS/Managers/GroupManager.h" />
+		<Unit filename="../../../GreenMist/ECS/Managers/PlayerManager.h" />
+		<Unit filename="../../../GreenMist/ECS/Managers/TagManager.h" />
+		<Unit filename="../../../GreenMist/ECS/Managers/TeamManager.h" />
+		<Unit filename="../../../GreenMist/ECS/Systems/DelayedEntityProcessingSystem.h" />
+		<Unit filename="../../../GreenMist/ECS/Systems/EntityProcessingSystem.h" />
+		<Unit filename="../../../GreenMist/ECS/Systems/IntervalEntityProcessingSystem.h" />
+		<Unit filename="../../../GreenMist/ECS/Systems/IntervalEntitySystem.cpp" />
+		<Unit filename="../../../GreenMist/ECS/Systems/IntervalEntitySystem.h" />
+		<Unit filename="../../../GreenMist/ECS/Systems/ParticleEntitySystem.h" />
+		<Unit filename="../../../GreenMist/ECS/Systems/PhysicsEntitySystem.h" />
+		<Unit filename="../../../GreenMist/ECS/Systems/VoidEntitySystem.h" />
+		<Unit filename="../../../GreenMist/ECS/World.cpp" />
+		<Unit filename="../../../GreenMist/ECS/World.h" />
+		<Unit filename="../../../GreenMist/GMApplication.cpp" />
+		<Unit filename="../../../GreenMist/GMApplication.h" />
+		<Unit filename="../../../GreenMist/GMTimer.cpp" />
+		<Unit filename="../../../GreenMist/GMTimer.h" />
+		<Unit filename="../../../GreenMist/MathExtender.cpp" />
+		<Unit filename="../../../GreenMist/MathExtender.h" />
+		<Unit filename="../../../GreenMist/Particle/AgeModifier.cpp" />
+		<Unit filename="../../../GreenMist/Particle/AgeModifier.h" />
+		<Unit filename="../../../GreenMist/Particle/AlphaModifier.cpp" />
+		<Unit filename="../../../GreenMist/Particle/AlphaModifier.h" />
+		<Unit filename="../../../GreenMist/Particle/EmitterParameter.cpp" />
+		<Unit filename="../../../GreenMist/Particle/EmitterParameter.h" />
+		<Unit filename="../../../GreenMist/Particle/Modifier.cpp" />
+		<Unit filename="../../../GreenMist/Particle/Modifier.h" />
+		<Unit filename="../../../GreenMist/Particle/ModifierCollection.cpp" />
+		<Unit filename="../../../GreenMist/Particle/ModifierCollection.h" />
+		<Unit filename="../../../GreenMist/Particle/ModifierSlot.cpp" />
+		<Unit filename="../../../GreenMist/Particle/ModifierSlot.h" />
+		<Unit filename="../../../GreenMist/Particle/MoveModifier.cpp" />
+		<Unit filename="../../../GreenMist/Particle/MoveModifier.h" />
+		<Unit filename="../../../GreenMist/Particle/Particle.cpp" />
+		<Unit filename="../../../GreenMist/Particle/Particle.h" />
+		<Unit filename="../../../GreenMist/Particle/ParticleCollection.cpp" />
+		<Unit filename="../../../GreenMist/Particle/ParticleCollection.h" />
+		<Unit filename="../../../GreenMist/Particle/Profile.cpp" />
+		<Unit filename="../../../GreenMist/Particle/Profile.h" />
+		<Unit filename="../../../GreenMist/Particle/Range.cpp" />
+		<Unit filename="../../../GreenMist/Particle/Range.h" />
+		<Unit filename="../../../GreenMist/Particle/RangeColor.cpp" />
+		<Unit filename="../../../GreenMist/Particle/RangeColor.h" />
+		<Unit filename="../../../GreenMist/Particle/RangeF.cpp" />
+		<Unit filename="../../../GreenMist/Particle/RangeF.h" />
+		<Unit filename="../../../GreenMist/Particle/RotationModifier.cpp" />
+		<Unit filename="../../../GreenMist/Particle/RotationModifier.h" />
+		<Unit filename="../../../GreenMist/Physics/PhysicsFactory.h" />
+		<Unit filename="../../../GreenMist/SDL2_gfx/SDL2_framerate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../GreenMist/SDL2_gfx/SDL2_framerate.h" />
+		<Unit filename="../../../GreenMist/SDL2_gfx/SDL2_gfxPrimitives.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../GreenMist/SDL2_gfx/SDL2_gfxPrimitives.h" />
+		<Unit filename="../../../GreenMist/SDL2_gfx/SDL2_gfxPrimitives_font.h" />
+		<Unit filename="../../../GreenMist/SDL2_gfx/SDL2_imageFilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../GreenMist/SDL2_gfx/SDL2_imageFilter.h" />
+		<Unit filename="../../../GreenMist/SDL2_gfx/SDL2_rotozoom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../GreenMist/SDL2_gfx/SDL2_rotozoom.h" />
+		<Unit filename="../../../GreenMist/Settings.cpp" />
+		<Unit filename="../../../GreenMist/Settings.h" />
+		<Unit filename="../../../GreenMist/TMX/StaticTile.cpp" />
+		<Unit filename="../../../GreenMist/TMX/StaticTile.h" />
+		<Unit filename="../../../GreenMist/TMX/TMXLayer.cpp" />
+		<Unit filename="../../../GreenMist/TMX/TMXLayer.h" />
+		<Unit filename="../../../GreenMist/TMX/TMXMap.cpp" />
+		<Unit filename="../../../GreenMist/TMX/TMXMap.h" />
+		<Unit filename="../../../GreenMist/TMX/TMXObjectGroupLayer.h" />
+		<Unit filename="../../../GreenMist/TMX/TMXTileLayer.cpp" />
+		<Unit filename="../../../GreenMist/TMX/TMXTileLayer.h" />
+		<Unit filename="../../../GreenMist/TMX/TMXTileset.cpp" />
+		<Unit filename="../../../GreenMist/TMX/TMXTileset.h" />
+		<Unit filename="../../../GreenMist/TMX/Tiles.cpp" />
+		<Unit filename="../../../GreenMist/TMX/Tiles.h" />
+		<Unit filename="../../../GreenMist/TMX/tinyxml2.cpp" />
+		<Unit filename="../../../GreenMist/TMX/tinyxml2.h" />
+		<Unit filename="../../../GreenMist/Texture.cpp" />
+		<Unit filename="../../../GreenMist/Texture.h" />
+		<Unit filename="../../../GreenMist/TextureManager.cpp" />
+		<Unit filename="../../../GreenMist/TextureManager.h" />
+		<Unit filename="../../../GreenMist/Vector2.cpp" />
+		<Unit filename="../../../GreenMist/Vector2.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

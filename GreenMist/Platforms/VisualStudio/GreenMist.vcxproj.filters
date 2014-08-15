@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Particle">
+      <UniqueIdentifier>{6e4c50d6-7bc6-4a2d-817f-02317d0165a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS">
+      <UniqueIdentifier>{92ea71d0-480d-4918-aa91-cb808b3c0220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particle\Modifier">
+      <UniqueIdentifier>{5fe573ae-e754-42ec-a8b1-1ec3f7409259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TMX">
+      <UniqueIdentifier>{d33a1c16-e0c3-448e-9971-aa887756d504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\Systems">
+      <UniqueIdentifier>{233740d3-698c-40a3-b27e-09487e5492ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\Components">
+      <UniqueIdentifier>{9199e71e-88b2-486a-a57b-22ea3ccfe537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\Managers">
+      <UniqueIdentifier>{722ea2c5-fc58-4c2c-a8e4-6865f105c488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDL2_GFX">
+      <UniqueIdentifier>{6335a159-fe01-43ca-8988-32aa89bb69ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TMX">
+      <UniqueIdentifier>{1fdc14c9-ab00-4cac-9d62-47cf1733bd44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle">
+      <UniqueIdentifier>{a90002cd-7e19-400a-b8bf-9ef2c2fb04d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS">
+      <UniqueIdentifier>{37e027a0-a3e4-416f-baaf-6b4e8dfa00c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle\Modifies">
+      <UniqueIdentifier>{19ea169e-a14f-4ee7-914b-bf4252dec5b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Managers">
+      <UniqueIdentifier>{8502aecf-6bd6-4df5-bc8c-ef5d532de1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Systems">
+      <UniqueIdentifier>{8b2afa21-f348-4efd-90bb-bd490c589cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDL2_GFX">
+      <UniqueIdentifier>{26c7db99-fbd0-4b69-9d70-af40df0ddfcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{b0b1c0d8-c4ff-4432-85da-ce6c74fd6f1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\GreenMist\MathExtender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\B2DDebugDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\GMApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\GMTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\AlphaModifier.h">
+      <Filter>Header Files\Particle\Modifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\AgeModifier.h">
+      <Filter>Header Files\Particle\Modifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Aspect.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Bitsize.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Component.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\ComponentManager.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\ComponentMapper.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\ComponentType.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Components\EmitterComponent.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\EmitterParameter.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Entity.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\EntityObserver.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\DelayedEntityProcessingSystem.h">
+      <Filter>Header Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\EntityProcessingSystem.h">
+      <Filter>Header Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\EntitySystem.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Managers\GroupManager.h">
+      <Filter>Header Files\ECS\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\ImmutableBag.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\IntervalEntityProcessingSystem.h">
+      <Filter>Header Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\IntervalEntitySystem.h">
+      <Filter>Header Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Manager.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\Modifier.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\ModifierCollection.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\ModifierSlot.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\Particle.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\ParticleCollection.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\MoveModifier.h">
+      <Filter>Header Files\Particle\Modifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\ParticleEntitySystem.h">
+      <Filter>Header Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Managers\PlayerManager.h">
+      <Filter>Header Files\ECS\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Components\PositionComponent.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Components\RenderOrderComponent.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\Range.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\Profile.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\RangeF.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\RangeColor.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Particle\RotationModifier.h">
+      <Filter>Header Files\Particle\Modifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\SDL2_gfx\SDL2_framerate.h">
+      <Filter>Header Files\SDL2_GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\SDL2_gfx\SDL2_rotozoom.h">
+      <Filter>Header Files\SDL2_GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\SDL2_gfx\SDL2_gfxPrimitives.h">
+      <Filter>Header Files\SDL2_GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\SDL2_gfx\SDL2_gfxPrimitives_font.h">
+      <Filter>Header Files\SDL2_GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\SDL2_gfx\SDL2_imageFilter.h">
+      <Filter>Header Files\SDL2_GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Managers\TagManager.h">
+      <Filter>Header Files\ECS\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Managers\TeamManager.h">
+      <Filter>Header Files\ECS\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Components\TextureComponent.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Components\VelocityComponent.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\TMX\TMXTileset.h">
+      <Filter>Header Files\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\TMX\TMXLayer.h">
+      <Filter>Header Files\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\TMX\TMXMap.h">
+      <Filter>Header Files\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\TMX\TMXObjectGroupLayer.h">
+      <Filter>Header Files\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\TMX\TMXTileLayer.h">
+      <Filter>Header Files\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\TMX\tinyxml2.h">
+      <Filter>Header Files\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\TMX\Tiles.h">
+      <Filter>Header Files\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\TMX\StaticTile.h">
+      <Filter>Header Files\TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\VoidEntitySystem.h">
+      <Filter>Header Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\Physics\PhysicsFactory.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Components\PhysicsComponent.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Systems\PhysicsEntitySystem.h">
+      <Filter>Header Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\EntityManager.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GreenMist\ECS\Components\RotationComponent.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\GreenMist\Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\ECS\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\B2DDebugDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\GMApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\GMTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\MathExtender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\AgeModifier.cpp">
+      <Filter>Source Files\Particle\Modifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\AlphaModifier.cpp">
+      <Filter>Source Files\Particle\Modifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\ECS\ComponentManager.cpp">
+      <Filter>Source Files\ECS\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\ECS\ComponentType.cpp">
+      <Filter>Source Files\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\EmitterParameter.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\ECS\Entity.cpp">
+      <Filter>Source Files\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\ECS\EntityManager.cpp">
+      <Filter>Source Files\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\ECS\EntitySystem.cpp">
+      <Filter>Source Files\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\ECS\Systems\IntervalEntitySystem.cpp">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\ModifierCollection.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\ModifierSlot.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\Modifier.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\MoveModifier.cpp">
+      <Filter>Source Files\Particle\Modifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\Particle.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\Profile.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\ParticleCollection.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\Range.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\RangeColor.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\RangeF.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\Particle\RotationModifier.cpp">
+      <Filter>Source Files\Particle\Modifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\SDL2_gfx\SDL2_rotozoom.c">
+      <Filter>Source Files\SDL2_GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\SDL2_gfx\SDL2_framerate.c">
+      <Filter>Source Files\SDL2_GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\SDL2_gfx\SDL2_gfxPrimitives.c">
+      <Filter>Source Files\SDL2_GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\SDL2_gfx\SDL2_imageFilter.c">
+      <Filter>Source Files\SDL2_GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\TMX\TMXTileset.cpp">
+      <Filter>Source Files\TMX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\TMX\tinyxml2.cpp">
+      <Filter>Source Files\TMX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\TMX\TMXLayer.cpp">
+      <Filter>Source Files\TMX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\TMX\TMXMap.cpp">
+      <Filter>Source Files\TMX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\TMX\TMXTileLayer.cpp">
+      <Filter>Source Files\TMX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\TMX\Tiles.cpp">
+      <Filter>Source Files\TMX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GreenMist\TMX\StaticTile.cpp">
+      <Filter>Source Files\TMX</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
